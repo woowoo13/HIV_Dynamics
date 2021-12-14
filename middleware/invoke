@@ -1,5 +1,5 @@
 #!/bin/sh
 /usr/bin/invoke_app "$@" -C "start_jupyter -t -A -T @tool Hayes_Prelim_Model_2.ipynb" \
-                        -t project \
+                        -t model \
                         -u anaconda3-5.1 \
                         -e TOOL_PYTHONPATH=/apps/share64/debian7/anaconda/anaconda3-5.1/tools/tellurium/20190823/lib/python3.6/site-packages
